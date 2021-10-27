@@ -64,7 +64,7 @@ for Col in range(len(listColNames)):
 
 
 
-#QUESTION 1.3 :   On s'interesse maintenant au lien entre la variable 'score' et 'var12'.
+#QUESTION 1.3 : On s'interesse maintenant au lien entre la variable 'score' et 'var12'.
 #               On peut remarquer que ces donnees contiennent deux valeurs aberrantes.
 #
 #QUESTION 1.3.1 : Definissez une procedure pour detecter automatiquement deux donnees aberrantes dans
@@ -114,3 +114,5 @@ plt.scatter(dataframe['concentration'], dataframe['Efficacite'], c=['r' if t == 
 plt.xlabel("concentration")
 plt.ylabel("Efficacite")
 plt.show()
+
+print(2)
